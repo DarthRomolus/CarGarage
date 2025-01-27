@@ -25,7 +25,7 @@ public class Garage {
         if (currentIndex < vehicles.size()) {
             Vehicle currentVehicle = vehicles.get(currentIndex);
 
-            // הגדרה של זמן התיקון הנותר אם זה הצעד הראשון עבור הרכב הזה
+            
             if (remainingFixTime == 0) {
                 remainingFixTime = currentVehicle.getFixTime();
                 System.out.println("מתקן את: " + currentVehicle.getName());
