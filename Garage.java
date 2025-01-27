@@ -31,10 +31,10 @@ public class Garage {
                 System.out.println("מתקן את: " + currentVehicle.getName());
             }
 
-            // הקטנה של הזמן הנותר לתיקון
+            
             remainingFixTime--;
 
-            // כאשר זמן התיקון מגיע ל-0, מתקן את הרכב
+            
             if (remainingFixTime == 0) {
                 if (currentVehicle instanceof Fixable) {
                     ((Fixable) currentVehicle).fixed();
@@ -42,7 +42,7 @@ public class Garage {
                 currentIndex++;
             }
         } else {
-            // כאשר כל הרכבים תוקנו
+            
             System.out.println("כל כלי הרכב תוקנו!");
             protocol.fixed();
             stop();
