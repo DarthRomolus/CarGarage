@@ -10,6 +10,6 @@ public abstract class Vehicle implements Fixable {
     }
 
 
-    // פונקציה מופשטת שמחזירה את הזמן הנדרש לתיקון
+
     public abstract int getFixTime();
 }
