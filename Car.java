@@ -5,7 +5,7 @@ class Car extends Vehicle  {
 
     @Override
     public int getFixTime() {
-        return 5; // זמן תיקון במכונית הוא 5 שניות
+        return 5; 
     }
 
     @Override
