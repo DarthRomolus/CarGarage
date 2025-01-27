@@ -8,12 +8,12 @@ public class DB {
         this.vehicles = new ArrayList<>();
     }
 
-    // הוספת כלי רכב למערך
+    
     public void addVehicle(Vehicle vehicle) {
         vehicles.add(vehicle);
     }
 
-    // החזרת המערך
+    
     public List<Vehicle> getVehicles() {
         return vehicles;
     }
