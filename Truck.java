@@ -5,7 +5,7 @@ class Truck extends Vehicle  {
 
     @Override
     public int getFixTime() {
-        return 10; // זמן תיקון במשאית הוא 10 שניות
+        return 10; 
     }
 
     @Override
