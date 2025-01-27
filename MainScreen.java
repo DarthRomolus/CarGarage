@@ -11,7 +11,7 @@ public class MainScreen {
             int type = scanner.nextInt();
 
             if (type == 0) {
-                break; // מסיים את הלולאה אם המשתמש הזין 0
+                break; 
             }
 
             System.out.println("הזן את שם הרכב:");
@@ -24,7 +24,7 @@ public class MainScreen {
                 case 3 -> vehicle = new Truck(name);
                 default -> {
                     System.out.println("סוג רכב לא תקין, נסה שוב.");
-                    continue; // מדלג על ההמשך ומבקש הזנה מחדש
+                    continue; 
                 }
             }
 
