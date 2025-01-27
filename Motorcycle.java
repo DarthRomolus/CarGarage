@@ -5,7 +5,7 @@ class Motorcycle extends Vehicle  {
 
     @Override
     public int getFixTime() {
-        return 3; // זמן תיקון באופנוע הוא 3 שניות
+        return 3;
     }
 
     @Override
